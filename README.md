@@ -1,4 +1,5 @@
-# gitignore
+# shib price display - LCD 1602 using an UNO R3
 
-This respository is used for cloning .gitignore to future repos
+dedicated ticker price display for stonx
 
+tested as a flask scraping app and in jupyter notebook
