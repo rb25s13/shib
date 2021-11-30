@@ -21,24 +21,24 @@ if (Serial.available()>0){
   c = Serial.parseFloat();
  
 }
-lcd.print(s + "open:" + o);
+lcd.print(s + ":" + o);
 lcd.setCursor(0,1);
-lcd.print("current:");
-lcd.print(c);
-delay(2000);
-for (int positionCounter = 0; positionCounter < 17; positionCounter++) {
-lcd.scrollDisplayLeft();
-delay(200);
-}
-delay(500);
-lcd.clear();
-lcd.setCursor(0,0);
-lcd.print("change: ");
-lcd.print(c-o);
-delay(2000);
-for (int positionCounter = 0; positionCounter < 17; positionCounter++) {
-lcd.scrollDisplayLeft();
-delay(200);
-}
+// lcd.print(s + ":");
+// lcd.print(c);
+delay(50);
+// for (int positionCounter = 0; positionCounter < 17; positionCounter++) {
+// lcd.scrollDisplayLeft();
+// delay(1000);
+// }
+// delay(500);
+// lcd.clear();
+// lcd.setCursor(0,0);
+// lcd.print("change: ");
+// lcd.print(c-o);
+// delay(2000);
+// for (int positionCounter = 0; positionCounter < 17; positionCounter++) {
+// lcd.scrollDisplayLeft();
+// delay(200);
+// }
 lcd.clear();
 }
