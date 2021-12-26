@@ -1,4 +1,3 @@
-
 #include <LiquidCrystal.h>
 String str = "";
 float o;
